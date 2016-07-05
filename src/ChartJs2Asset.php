@@ -15,12 +15,12 @@ use yii\web\AssetBundle;
  * @author Piotr Musiał <piotr.mus@gmail.com>
  * @link http://www.codehat.pl/
  */
-class ChartJsAsset extends AssetBundle
+class ChartJs2Asset extends AssetBundle
 {
-    public $sourcePath = '@bower/chartjs2';
+    public $sourcePath = '@bower/chartjs';
 
     public function init()
     {
-        $this->js = YII_DEBUG ? ['Chart.js'] : ['Chart.min.js'];
+        $this->js = (YII_DEBUG ? ['dist/Chart.js'] : ['dist/Chart.min.js']);
     }
 }
