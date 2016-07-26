@@ -74,3 +74,7 @@ use piotrmus\chartjs\ChartJs2;
     ],
 ]) ?>
 ```
+Donations
+----
+
+Bitcoins: ```1FvJK24Lgv8tsctzdgCyTQgVA5LFs1y2dw```
